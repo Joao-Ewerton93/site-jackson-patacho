@@ -1,0 +1,175 @@
+/* Immersive opening and editorial experiences. */
+.site-header{position:absolute;inset:0 0 auto;background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;color:white;border-bottom:1px solid #ffffff30}
+.site-header.scrolled{border-color:#ffffff30}
+.header-container{max-width:none;padding:0 4%;height:96px}
+.brand-avatar{display:none}.brand-name{color:white;font-family:var(--font-serif);font-size:27px;font-weight:400;letter-spacing:-.03em}.brand-tag{color:#ffffffbb;font-size:9px;text-transform:uppercase;letter-spacing:.18em;margin-top:5px}
+.nav-links{gap:26px}.nav-links a{color:white;font-size:11px;letter-spacing:.06em}.nav-links a:hover{color:#e5d9bd}.btn-instagram-profile{display:none}.btn-whatsapp-header{background:#ffffff12;border:1px solid #ffffff80;border-radius:0;color:white;font-size:11px;letter-spacing:.08em;padding:13px 19px}.btn-whatsapp-header svg{display:none}.btn-whatsapp-header:hover{background:white;color:var(--ink)}
+.cinematic-hero{height:100svh;min-height:720px;padding:0;position:relative;display:block;overflow:hidden;color:#fff;background:#23545c}
+.cinematic-hero .hero-bg-img{width:100%;height:100%;object-fit:cover;object-position:50% 59%}
+.cinematic-hero .hero-gradient-overlay{background:linear-gradient(180deg,#092e3d60 0%,#082e3820 30%,#062c3440 60%,#062b32a6 100%)}
+.cinema-grid{position:absolute;inset:0 4%;pointer-events:none;border-left:1px solid #ffffff16;border-right:1px solid #ffffff16;background:repeating-linear-gradient(90deg,transparent 0,transparent calc(25% - 1px),#ffffff12 calc(25% - 1px),#ffffff12 25%)}
+.cinema-topline{position:absolute;top:126px;left:4%;right:4%;display:flex;justify-content:space-between;font-size:9px;text-transform:uppercase;letter-spacing:.19em}
+.cinema-intro{position:absolute;left:4%;right:4%;top:31%;display:flex;justify-content:space-between;align-items:center}.cinema-intro p{font-family:var(--font-serif);font-size:23px;font-style:italic;line-height:1.2}.cinema-link{display:flex;justify-content:space-between;gap:36px;align-items:center;border-top:1px solid currentColor;border-bottom:1px solid currentColor;padding:15px 0;font-size:11px;letter-spacing:.02em}.cinema-link span{font-size:21px;transition:transform .3s}.cinema-link:hover span{transform:translate(3px,-3px)}
+.cinema-title-wrap{position:absolute;bottom:135px;left:8%}.cinema-eyebrow{display:block;font-size:9px;letter-spacing:.24em;text-transform:uppercase;margin-bottom:20px}.cinema-title-wrap h1{font-family:var(--font-body);font-size:clamp(76px,10.5vw,165px);font-weight:500;line-height:.88;letter-spacing:-.075em}.cinema-title-wrap em{font-family:var(--font-serif);font-weight:400;letter-spacing:-.045em}
+.cinema-bottom{position:absolute;bottom:32px;left:4%;right:4%;display:flex;align-items:flex-end;justify-content:space-between;font-size:10px;line-height:1.7}.cinema-bottom a{display:flex;align-items:center;gap:36px}.cinema-bottom a span{font-size:24px}.cinema-index{text-transform:uppercase;letter-spacing:.15em;font-size:9px}
+.editorial-experiences{background:#f5f2eb;padding:110px 4% 100px;color:#173d40}.experience-heading{display:grid;grid-template-columns:1fr 2fr 1fr;gap:32px;align-items:start;margin-bottom:72px}.editorial-label{font-size:9px;letter-spacing:.17em;text-transform:uppercase;display:block}.experience-heading h2,.booking-intro h2{font-size:clamp(38px,4.6vw,70px);line-height:1.05;font-weight:400;letter-spacing:-.055em}.experience-heading h2 em,.booking-intro em{font-family:var(--font-serif);font-weight:400}.experience-heading p{max-width:390px;font-size:13px;line-height:1.9;margin-top:25px;color:#506567}.experience-note{text-align:right;font-family:var(--font-serif);font-style:italic;font-size:20px;line-height:1.3}
+.editorial-trips{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}.editorial-trip:nth-child(2){padding-top:90px}.editorial-trip:nth-child(3){padding-top:35px}.trip-photo{position:relative;aspect-ratio:3/4;overflow:hidden;background:#d4dfd9}.trip-photo img{width:100%;height:100%;object-fit:cover;transition:transform .8s}.editorial-trip:hover .trip-photo img{transform:scale(1.04)}.trip-number{position:absolute;inset:auto 20px 20px;font-size:9px;letter-spacing:.08em;color:white;text-shadow:0 1px 5px black}.trip-photo:after{content:'';position:absolute;inset:60% 0 0;background:linear-gradient(transparent,#082a354d);pointer-events:none}.trip-number{z-index:1}.trip-caption{padding:25px 0 0}.trip-caption h3{font-family:var(--font-serif);font-size:clamp(30px,3vw,46px);font-weight:400;line-height:1.05;margin:16px 0;letter-spacing:-.02em}.trip-caption p{font-size:12px;line-height:1.9;color:#506567;min-height:70px;max-width:340px;margin-bottom:25px}.trip-caption .cinema-link{border-color:#173d4040}
+.editorial-booking{background:#e9e7dd;padding:72px 8%;display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}.booking-intro h2{margin:20px 0}.booking-intro p{max-width:380px;font-size:13px;color:#506567}.editorial-booking .hero-card-booking{width:100%;max-width:none;box-shadow:none;border:1px solid #173d4020;background:transparent;border-radius:0}.transfer-retained .service-card{max-width:650px;margin:auto}.mobile-toggle span{background:white}
+@media(min-width:1600px){.editorial-experiences{padding-left:8%;padding-right:8%}}
+@media(max-width:1024px){.header-container{height:80px}.main-nav{background:#123d43;top:80px}.main-nav .nav-links a{color:white;border-color:#ffffff30}.cinema-topline{top:105px}.experience-heading{grid-template-columns:1fr 2fr}.experience-note{display:none}.editorial-trips{gap:20px}.editorial-booking{gap:35px;padding:60px 4%}}
+@media(max-width:768px){.header-container{height:72px;padding:0 6%;gap:12px}.brand-name{font-size:23px}.btn-whatsapp-header{width:auto;padding:10px 13px}.btn-whatsapp-header span{display:inline;font-size:9px}.header-actions{gap:12px}.main-nav{top:72px}.cinematic-hero{min-height:700px;height:100svh}.cinematic-hero .hero-bg-img{object-position:50% 53%}.cinema-topline{top:100px;left:6%;right:6%;font-size:8px}.cinema-topline span:last-child{display:none}.cinema-intro{left:6%;right:6%;top:25%;align-items:flex-start}.cinema-intro p{font-size:20px}.cinema-intro .cinema-link{font-size:9px;gap:16px;width:145px;padding:9px 0}.cinema-title-wrap{left:6%;bottom:165px}.cinema-title-wrap h1{font-size:clamp(70px,16vw,120px)}.cinema-eyebrow{font-size:8px}.cinema-bottom{left:6%;right:6%;bottom:32px;font-size:9px;gap:16px}.cinema-bottom p{max-width:170px}.cinema-bottom a{gap:12px}.cinema-index{display:none}.editorial-experiences{padding:65px 6%}.experience-heading{display:block;margin-bottom:40px}.experience-heading h2{margin-top:24px;font-size:46px}.editorial-trips{grid-template-columns:1fr;gap:48px}.editorial-trip:nth-child(n){padding-top:0}.trip-photo{aspect-ratio:4/5}.trip-caption h3{font-size:39px}.trip-caption p{min-height:0;max-width:none}.editorial-booking{grid-template-columns:1fr;padding:60px 6%;gap:30px}.editorial-booking .hero-card-booking{padding:24px}.booking-intro h2{font-size:44px}}
+@media(prefers-reduced-motion:reduce){.trip-photo img,.cinema-link span{transition:none}html{scroll-behavior:auto}}
+.cinema-grid,.cinema-topline,.cinema-intro,.cinema-title-wrap,.cinema-bottom{z-index:2}
+/* Essential introduction restored from the original opening. */
+.cinema-title-wrap{left:4%;right:4%;bottom:130px;max-width:1000px}
+.cinema-title-wrap h1{font-size:clamp(48px,6.3vw,94px);line-height:1.02;letter-spacing:-.055em}
+.cinema-description{max-width:650px;margin-top:25px;font-size:15px;line-height:1.8;color:#fff}
+.cinema-intro{top:25%}
+@media(max-width:768px){.cinema-title-wrap{left:6%;right:6%;bottom:135px}.cinema-title-wrap h1{font-size:clamp(35px,8.4vw,58px)}.cinema-description{font-size:13px;line-height:1.65;margin-top:20px}.cinema-eyebrow{line-height:1.7;max-width:280px}.cinema-intro{top:21%}.cinema-intro p{font-size:17px}.cinematic-hero{min-height:820px}}
+/* Quiet opening: essential content and an uninterrupted photograph. */
+.site-header,.site-header.scrolled{border-bottom:0}
+.cinema-title-wrap{bottom:14%;max-width:1000px}
+@media(max-width:768px){.cinema-title-wrap{bottom:12%}.cinematic-hero{min-height:700px}}
+/* Brand and navigation remain accessible throughout the page. */
+.site-header{position:fixed;inset:0 0 auto;transition:background .3s ease,box-shadow .3s ease}
+.site-header.scrolled{background:rgba(15,53,60,.96);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 4px 20px #082a3518}
+.site-header .brand-avatar{display:block;width:44px;height:44px;border:1px solid #ffffff60}
+@media(max-width:768px){.site-header .brand-avatar{width:34px;height:34px}.brand-logo{gap:8px}.brand-name{font-size:21px}}
+/* Transparent fixed header, including while scrolling. */
+.site-header,.site-header.scrolled{background:transparent;backdrop-filter:none;-webkit-backdrop-filter:none;box-shadow:none}
+.site-header .brand-info,.site-header .nav-links a{text-shadow:0 1px 5px #062b32b3}
+@media(max-width:1024px){.site-header .main-nav{background:#123d43}.site-header .main-nav .nav-links a{text-shadow:none}}
+/* Clear coastal palette: white, turquoise and restrained coral accents. */
+:root{--bg:#f8fbfa;--surface:#ffffff;--sand:#edf5f3;--sand-2:#f4f9f8;--ink:#173e43;--ink-2:#526a70;--ink-3:#768b90;--line:#dce9e7;--accent:#087e8b;--accent-hover:#066570;--accent-soft:#e5f5f3;--deep:#123f47;--sand-light:#d1f3ed;--whatsapp:#087e8b;--whatsapp-hover:#066570}
+.editorial-experiences{background:#f9fcfb;color:#173e43}.experience-heading p,.trip-caption p{color:#526a70}.editorial-label{color:#b95449}.experience-note{color:#087e8b}.trip-caption .cinema-link{color:#087e8b;border-color:#b9dcd8}.trip-photo{background:#e6f2ef}
+.editorial-booking{background:#edf7f6}.booking-intro h2{color:#173e43}.booking-intro p{color:#526a70}.editorial-booking .hero-card-booking{border-color:#cce2df;background:#ffffffa6}
+.cinema-title-wrap h1 em{color:#ffffff}.cinema-eyebrow{color:#ffffff}.section-tag,.insta-badge-header{color:#b95449}.section-tag-gold{color:#d1f3ed}.ribbon-features{background:#f1f8f7}.ribbon-icon{color:#b95449}.section-services,.section-insta-feed{background:#f8fbfa}.btn-outline-dark{color:#087e8b;border-color:#afd3cf}.btn-outline-dark:hover{background:#087e8b;color:#ffffff}.btn-gold,.btn-primary{background:#087e8b;color:#ffffff}.btn-gold:hover,.btn-primary:hover{background:#066570}.booking-badge-premium{color:#b95449}
+.site-header.scrolled .brand-name,.site-header.scrolled .brand-tag,.site-header.scrolled .nav-links a{color:#173e43;text-shadow:0 1px 5px #ffffff}
+.site-header.scrolled .btn-whatsapp-header{color:#173e43;border-color:#173e4380;background:#ffffff33}.site-header.scrolled .mobile-toggle span{background:#173e43}
+@media(max-width:1024px){.site-header .main-nav{background:#123f47}.site-header.scrolled .main-nav .nav-links a{color:#ffffff;text-shadow:none}}
+/* Patacho water: sea-glass green taken as direction from the local photos. */
+:root{--bg:#f9fcfb;--surface:#ffffff;--sand:#edf7f3;--sand-2:#f3faf7;--ink:#194b44;--ink-2:#55726a;--ink-3:#7a938a;--line:#d7e9e1;--accent:#258575;--accent-hover:#1b6b5e;--accent-soft:#e0f3eb;--deep:#174c43;--sand-light:#d8f4e8;--whatsapp:#258575;--whatsapp-hover:#1b6b5e}
+.editorial-experiences{background:#f9fcfb;color:#194b44}.experience-heading p,.trip-caption p{color:#55726a}.experience-note{color:#258575}.trip-caption .cinema-link{color:#258575;border-color:#b6d9cc}.trip-photo{background:#e1f1e9}
+.editorial-booking{background:#eaf6ef}.booking-intro h2{color:#194b44}.booking-intro p{color:#55726a}.editorial-booking .hero-card-booking{background:#ffffffb3;border-color:#c8e2d5}.ribbon-features{background:#f1f9f5}.section-services,.section-insta-feed{background:#f9fcfb}.btn-outline-dark{color:#258575;border-color:#afd5c5}.btn-outline-dark:hover,.btn-gold,.btn-primary{background:#258575;color:white}.btn-gold:hover,.btn-primary:hover{background:#1b6b5e}
+.site-header.scrolled .brand-name,.site-header.scrolled .brand-tag,.site-header.scrolled .nav-links a{color:#194b44}.site-header.scrolled .btn-whatsapp-header{color:#194b44;border-color:#194b4480}.site-header.scrolled .mobile-toggle span{background:#194b44}
+@media(max-width:1024px){.site-header .main-nav{background:#174c43}.site-header.scrolled .main-nav .nav-links a{color:white}}
+/* Sea colour comes through the photograph and translucent glass. */
+.editorial-booking{position:relative;isolation:isolate;background:#80c6b6 url('assets/insta/foto_118.jpg') center 65%/cover no-repeat;color:#103e38}
+.editorial-booking::before{content:'';position:absolute;inset:0;z-index:-1;background:linear-gradient(110deg,rgba(224,247,237,.94) 0%,rgba(172,226,207,.79) 48%,rgba(66,166,148,.28) 100%)}
+.editorial-booking .hero-card-booking{background:rgba(244,255,250,.48);backdrop-filter:blur(18px) saturate(125%);-webkit-backdrop-filter:blur(18px) saturate(125%);border:1px solid rgba(255,255,255,.7);box-shadow:inset 0 1px 0 #ffffffb3,0 18px 48px #174c4314;border-radius:18px}
+.editorial-booking .booking-form input,.editorial-booking .booking-form select{background:rgba(255,255,255,.54);border-color:rgba(255,255,255,.8);color:#163f39}
+.editorial-booking .booking-intro p,.editorial-booking .booking-card-header p,.editorial-booking .form-disclaimer{color:#315b50}
+.editorial-booking .btn-whatsapp-full{background:linear-gradient(115deg,#227e6e,#329e8e);box-shadow:0 5px 18px #1a705e22}
+.editorial-booking .btn-whatsapp-full:hover{background:linear-gradient(115deg,#196858,#258575)}
+@supports not (backdrop-filter:blur(18px)){.editorial-booking .hero-card-booking{background:rgba(244,255,250,.9)}}
+@media(max-width:768px){.editorial-booking{background-position:60% center}.editorial-booking::before{background:linear-gradient(180deg,#e0f7eded,#ace2cfcc 55%,#6ac4b399)}}
+/* Translucent sea-glass navigation. */
+.site-header{background:rgba(222,247,237,.12);backdrop-filter:blur(16px) saturate(125%);-webkit-backdrop-filter:blur(16px) saturate(125%);border-bottom:1px solid rgba(255,255,255,.25);box-shadow:inset 0 1px 0 rgba(255,255,255,.2)}
+.site-header.scrolled{background:linear-gradient(110deg,rgba(240,252,247,.76),rgba(202,237,224,.62));backdrop-filter:blur(18px) saturate(125%);-webkit-backdrop-filter:blur(18px) saturate(125%);border-bottom:1px solid rgba(255,255,255,.6);box-shadow:0 4px 20px rgba(23,76,67,.05)}
+@supports not (backdrop-filter:blur(16px)){.site-header{background:rgba(23,76,67,.85)}.site-header.scrolled{background:rgba(240,252,247,.96)}}
+/* Slightly lighter header glass. */
+.site-header{background:rgba(239,252,247,.25)}
+.site-header.scrolled{background:linear-gradient(110deg,rgba(248,255,252,.82),rgba(225,246,237,.72))}
+/* More transparent glass at the top and while scrolling. */
+.site-header{background:rgba(239,252,247,.10)}
+.site-header.scrolled{background:linear-gradient(110deg,rgba(248,255,252,.45),rgba(225,246,237,.32))}
+/* Edited Patacho seascape behind the real-photo gallery. */
+.section-insta-feed{background:linear-gradient(180deg,rgba(244,253,249,.64),rgba(221,246,235,.22) 42%,rgba(233,249,242,.48)),url('assets/foto_2_so_mar.png') center center/cover no-repeat}
+.section-insta-feed .section-header{max-width:1050px;margin-left:auto;margin-right:auto;padding:30px 24px;background:rgba(248,255,252,.72);border:1px solid rgba(255,255,255,.65);border-radius:18px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.section-insta-feed .btn-instagram-follow{background:rgba(248,255,252,.83);border-color:rgba(255,255,255,.8);color:#194b44;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+@media(max-width:768px){.section-insta-feed .section-header{padding:24px 16px}.section-insta-feed{background-position:center}}
+/* Clear Instagram identity and a solid, legible follow action. */
+.section-insta-feed .insta-badge-header{font-size:clamp(13px,1.4vw,18px);letter-spacing:.11em;font-weight:800;color:#1b6b5e;gap:13px;margin-bottom:22px;line-height:1.6}
+.section-insta-feed .insta-badge-header svg{width:29px;height:29px;flex-shrink:0;stroke:#258575}
+.section-insta-feed .section-header{background:rgba(248,255,252,.83);padding:38px 28px;box-shadow:0 12px 36px #174c4310}
+.section-insta-feed .btn-instagram-follow{background:#227e6e;color:#fff;border:1px solid #227e6e;border-radius:999px;padding:17px 30px;box-shadow:0 8px 24px #174c4330;backdrop-filter:none;-webkit-backdrop-filter:none;font-weight:700;gap:12px}
+.section-insta-feed .btn-instagram-follow svg{color:white;stroke:currentColor;width:23px;height:23px}
+.section-insta-feed .btn-instagram-follow:hover{background:#195f53;border-color:#195f53;color:#fff;transform:translateY(-2px)}
+@media(max-width:768px){.section-insta-feed .section-header{padding:28px 16px}.section-insta-feed .insta-badge-header{letter-spacing:.05em;gap:9px}.section-insta-feed .insta-badge-header svg{width:25px;height:25px}.section-insta-feed .btn-instagram-follow{padding:16px 24px}}
+/* Edited sea texture and glass for tide planning. */
+.section-tides{background:linear-gradient(160deg,rgba(236,250,244,.52),rgba(214,240,231,.25) 50%,rgba(240,251,246,.5)),url('assets/foto_1_so_mar.png') center/cover no-repeat}
+.section-tides .section-header{max-width:1050px;margin-left:auto;margin-right:auto;padding:38px 28px;background:rgba(248,255,252,.83);border:1px solid rgba(255,255,255,.65);border-radius:18px;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);box-shadow:0 12px 36px #174c4310}
+.section-tides .tides-info-card,.section-tides .tides-simulator-card{background:rgba(248,255,252,.84);border:1px solid rgba(255,255,255,.75);border-radius:18px;backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);box-shadow:0 12px 36px #174c4314}
+.section-tides .section-tag{color:#258575;font-size:13px;letter-spacing:.14em}
+@supports not (backdrop-filter:blur(12px)){.section-tides .section-header,.section-tides .tides-info-card,.section-tides .tides-simulator-card{background:#f5fcf9}}
+@media(max-width:768px){.section-tides .section-header{padding:28px 16px}}
+/* Compact step-by-step section. */
+.section-how-it-works{padding:60px 0}
+.section-how-it-works .section-header{margin-bottom:30px}
+.section-how-it-works .section-title{font-size:clamp(25px,3vw,35px);margin-bottom:12px}
+.section-how-it-works .section-subtitle{font-size:14px;max-width:660px}
+.section-how-it-works .steps-grid{gap:28px}
+.section-how-it-works .step-card{padding-top:16px}
+.section-how-it-works .step-number{font-size:2rem;margin-bottom:12px}
+.section-how-it-works .step-card h3{font-size:1rem;margin-bottom:8px}
+.section-how-it-works .step-card p{font-size:13px;line-height:1.65}
+@media(max-width:768px){.section-how-it-works{padding:44px 0}.section-how-it-works .steps-grid{gap:24px 20px}}
+/* Transfer as a compact, integrated coastal feature. */
+.transfer-retained{padding:64px 0;background:linear-gradient(120deg,#e6f4ed,#f6fbf8)}
+.transfer-retained .container{max-width:1160px}
+.transfer-retained .service-card{max-width:none;margin:0;display:grid;grid-template-columns:.9fr 1.1fr;align-items:stretch;background:rgba(255,255,255,.8);border:1px solid #d3e7dd;border-radius:20px;overflow:hidden;box-shadow:0 12px 40px #174c4309}
+.transfer-retained .service-card-media{height:auto;min-height:360px;padding:22px;background:#e0f0e8;display:flex;align-items:center;justify-content:center;position:relative}
+.transfer-retained .service-card-media img{width:100%;height:auto;max-height:380px;object-fit:contain;border-radius:12px}
+.transfer-retained .card-badge{top:32px;left:32px;background:#fffdf1e8;color:#194b44;font-size:10px}
+.transfer-retained .service-card-body{padding:32px 36px;display:flex;flex-direction:column;justify-content:center}
+.transfer-retained .service-meta{font-size:10px;color:#258575;margin-bottom:12px;gap:12px}
+.transfer-retained .service-title{font-size:clamp(24px,2.6vw,34px);line-height:1.15;letter-spacing:-.035em;margin-bottom:14px}
+.transfer-retained .service-desc{font-size:13px;line-height:1.7;margin-bottom:16px}
+.transfer-retained .service-features-list{padding-top:16px;margin-bottom:22px;gap:8px}
+.transfer-retained .service-features-list li{font-size:12px;line-height:1.5}
+.transfer-retained .service-card-footer{margin-top:0;padding-top:0;border:0}
+.transfer-retained .service-card-footer .btn{background:#258575;color:#fff;border:1px solid #258575;padding:14px 20px;font-size:13px;border-radius:9px}
+.transfer-retained .service-card-footer .btn:hover{background:#1b6b5e;border-color:#1b6b5e}
+@media(max-width:768px){.transfer-retained{padding:44px 0}.transfer-retained .service-card{grid-template-columns:1fr}.transfer-retained .service-card-media{min-height:0;padding:18px}.transfer-retained .service-card-media img{max-height:240px}.transfer-retained .service-card-body{padding:24px}.transfer-retained .card-badge{top:26px;left:26px}}
+/* A short, calm testimonial interlude in the site's sea-glass palette. */
+.section-testimonials{padding:54px 0;background:linear-gradient(125deg,#f8fcfa,#e7f4ee)}
+.section-testimonials .container{max-width:1160px}
+.section-testimonials .section-header{margin-bottom:28px}
+.section-testimonials .section-tag{color:#258575;font-size:10px;letter-spacing:.16em;margin-bottom:12px}
+.section-testimonials .section-title{font-size:clamp(25px,3vw,36px);line-height:1.15;margin-bottom:12px;font-weight:500;letter-spacing:-.04em}
+.section-testimonials .section-subtitle{font-size:13px;max-width:none}
+.section-testimonials .testimonials-grid{gap:16px}
+.section-testimonials .testimonial-card{padding:23px;background:rgba(255,255,255,.7);border:1px solid #ffffff;border-radius:14px;box-shadow:0 6px 22px #174c4305}
+.section-testimonials .testimonial-stars{font-size:11px;color:#258575;letter-spacing:.16em;margin-bottom:12px}
+.section-testimonials .testimonial-text{font-size:13px;line-height:1.7;margin-bottom:18px;color:#315b50}
+.section-testimonials .testimonial-author{padding-top:13px;gap:8px;border-color:#d7e9e1}
+.section-testimonials .author-name{font-size:12px}.section-testimonials .author-origin,.section-testimonials .author-date{font-size:10px}
+@media(max-width:1024px) and (min-width:769px){.section-testimonials .testimonials-grid{grid-template-columns:repeat(3,minmax(0,1fr));max-width:none}.section-testimonials .testimonial-author{flex-wrap:wrap}}
+@media(max-width:768px){.section-testimonials{padding:40px 0}.section-testimonials .testimonials-grid{gap:12px}.section-testimonials .testimonial-card{padding:20px}.section-testimonials .section-header{margin-bottom:24px}}
+/* Compact, static tide section. */
+.section-tides{padding:54px 0}
+.section-tides .section-header{padding:26px 24px;margin-bottom:28px}
+.section-tides .section-title{font-size:clamp(25px,3vw,36px);line-height:1.2;margin-bottom:12px}
+.section-tides .section-subtitle{font-size:13px;line-height:1.65;max-width:680px}
+.section-tides .section-tag{font-size:10px;margin-bottom:12px}
+.section-tides .tides-grid{gap:24px;align-items:start}
+.section-tides .tides-info-card,.section-tides .tides-simulator-card{padding:24px;position:static}
+.section-tides .tides-info-card img{height:150px;object-fit:cover;margin-bottom:18px}
+.section-tides .tides-info-card h3{font-size:20px;margin-bottom:12px}
+.section-tides .tides-info-card p,.section-tides .tides-info-card li,.section-tides .tides-simulator-card p{font-size:13px;line-height:1.65}
+.section-tides .simulator-header h4{font-size:20px}
+.section-tides .section-header,.section-tides .tides-info-card,.section-tides .tides-simulator-card{opacity:1;transform:none;transition:none;animation:none}
+@media(max-width:768px){.section-tides{padding:40px 0}.section-tides .section-header,.section-tides .tides-info-card,.section-tides .tides-simulator-card{padding:20px}.section-tides .tides-grid{gap:16px}}
+/* Compact FAQ, preserving comfortable accordion controls. */
+.section-faq{padding:48px 0}
+.section-faq .faq-container{max-width:840px}
+.section-faq .section-header{margin-bottom:26px}
+.section-faq .section-tag{font-size:10px;margin-bottom:12px}
+.section-faq .section-title{font-size:clamp(25px,3vw,34px);line-height:1.2;margin-bottom:10px}
+.section-faq .section-subtitle{font-size:13px;line-height:1.6}
+.section-faq .faq-question{padding:17px 0;min-height:48px;font-size:14px;line-height:1.5;gap:16px}
+.section-faq .faq-answer{font-size:13px;line-height:1.7}
+.section-faq .faq-answer p{font-size:13px;line-height:1.7}
+@media(max-width:768px){.section-faq{padding:36px 0}.section-faq .faq-question{padding:15px 0}.section-faq .section-header{margin-bottom:22px}}
+/* Sea-photo footer, without the separate final sales panel. */
+.site-footer{background:linear-gradient(110deg,rgba(8,48,44,.88),rgba(14,70,65,.76)),url('assets/foto_1_so_mar.png') center/cover no-repeat;padding:48px 0 24px;color:rgba(255,255,255,.82);font-size:13px}
+.site-footer .footer-container{gap:32px;margin-bottom:32px}
+.site-footer .footer-ig,.site-footer .footer-hours,.site-footer .footer-bottom{color:rgba(255,255,255,.72)}
+.site-footer .footer-col h4{margin-bottom:15px}.site-footer .footer-links{gap:9px}.site-footer .footer-bottom{padding-top:20px;border-color:#ffffff30}
+@media(max-width:768px){.site-footer{padding:36px 0 22px}.site-footer .footer-container{gap:26px}}
+/* Fine dark outline keeps the white opening copy legible on water. */
+.cinema-title-wrap h1{ -webkit-text-stroke:1px rgba(8,47,43,.72);paint-order:stroke fill;text-shadow:0 2px 10px rgba(5,35,32,.45)}
+.cinema-description,.cinema-eyebrow{-webkit-text-stroke:.45px rgba(8,47,43,.85);paint-order:stroke fill;text-shadow:0 1px 3px rgba(5,35,32,.85),0 2px 8px rgba(5,35,32,.35)}
+/* More legible location line over the hero photograph. */
+.cinema-title-wrap .cinema-eyebrow{font-size:14px;font-weight:800;letter-spacing:.14em;line-height:1.7;margin-bottom:22px;-webkit-text-stroke:.65px rgba(5,36,33,.95);paint-order:stroke fill;text-shadow:0 2px 4px #052421cc,0 2px 12px #05242180}
+@media(max-width:768px){.cinema-title-wrap .cinema-eyebrow{font-size:12px;letter-spacing:.1em;max-width:340px;margin-bottom:18px}}

@@ -1,0 +1,6 @@
+_originais_backup/
+.jason/
+preview-*.png
+node_modules/
+.env
+.env.*

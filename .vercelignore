@@ -1,0 +1,11 @@
+# Arquivos que não precisam ir para o site publicado
+_originais_backup
+.claude
+README.md
+
+# Fotos do Instagram não usadas pelo site (o site usa só assets/insta/post_*.jpg)
+assets/insta/foto_*.jpg
+assets/insta/posts_data.json
+assets/piscinas_patacho_hd.jpg
+assets/jangadeiro_jackson.jpg
+assets/snorkel_subaquatico.jpg
