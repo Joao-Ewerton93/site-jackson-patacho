@@ -12,8 +12,8 @@ window.SITE_CONFIG = {
 
   // Contatos (Altere com o número real do WhatsApp do Jackson quando desejar)
   // Formato: 55 + DDD + Número (exemplo: 5582999999999)
-  whatsappNumber: "5582999999999", 
-  whatsappDisplay: "(82) 99999-9999",
+  whatsappNumber: "5582993494103",
+  whatsappDisplay: "(82) 99349-4103",
   instagramUsername: "jackson_patacho",
   instagramUrl: "https://www.instagram.com/jackson_patacho/",
 

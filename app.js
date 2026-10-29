@@ -107,7 +107,7 @@ function initReveal() {
 
 // 1. WhatsApp Helper & Links
 function buildWhatsAppUrl(message) {
-  const number = (window.SITE_CONFIG && window.SITE_CONFIG.whatsappNumber) || "5582999999999";
+  const number = (window.SITE_CONFIG && window.SITE_CONFIG.whatsappNumber) || "5582993494103";
   const encodedMsg = encodeURIComponent(message || "Olá Jackson! Gostaria de informações sobre os passeios de jangada no Patacho.");
   return `https://wa.me/${number}?text=${encodedMsg}`;
 }
